@@ -1,5 +1,6 @@
 
 function resizeButtonPeople() {
+  let width = 0;
   let buttons = document.getElementsByClassName('button-people');
 
   for (let button of buttons) {
@@ -16,8 +17,9 @@ function resizeButtonPeople() {
     
   }
   
-  }
-  window.onload = function(){
-    resizeButtonPeople();
+}
+
+window.onload = function(){
+  resizeButtonPeople();
 }
  
